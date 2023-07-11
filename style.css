@@ -7,8 +7,8 @@
 }
 
 img {
-    width: 17vw;
-    height: 17vh;
+    width: 60%;
+    height: 60%;
 }
 
 header{
@@ -76,4 +76,17 @@ button:active::before{
 
 .title{
     color: #ffffff;
+}
+
+@media screen and (max-width:900px) {
+  .title{
+    inline-size: max-content;
+    margin-left: -59px;
+  }
+  section{
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+   
 }
