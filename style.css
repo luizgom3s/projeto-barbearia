@@ -7,8 +7,8 @@
 }
 
 img {
-    width: 60%;
-    height: 60%;
+    width: 150%;
+    height: 150%;
 }
 
 header{
@@ -81,7 +81,7 @@ button:active::before{
 @media screen and (max-width:900px) {
   .title{
     inline-size: max-content;
-    margin-left: -59px;
+    margin-left: -64px;
   }
   section{
     margin-left: 0;
