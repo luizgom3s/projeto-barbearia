@@ -1,7 +1,7 @@
 * {
     font-family: 'Libre Baskerville', serif;
     font-family: 'Playfair', serif;
-    margin: 2%;
+    margin: -1%;
     padding: 0;
     box-sizing: border-box;
 }
@@ -60,6 +60,7 @@ button:active::before{
 
 .title{
     color: black;
+   font-size: 25px;
    
 }
 @media screen and (max-width:900px) {
