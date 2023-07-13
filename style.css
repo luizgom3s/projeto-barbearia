@@ -29,52 +29,37 @@ section{
 button{
    display: inline-block;
    position: relative;
-   color:#1f1f1f;
-   background: #ffffff;
+   color:#a6adaf;
+   background:#1f1f1f;
    font-family: inherit;
    font-weight: 500;
    font-size: 17px;
    padding: 5px 5px;
    margin: 10px;
-   border: 1px solid#1f1f1f;
+   border: 1px solid#ffff;
    border-radius:28.5px;
    z-index: 1;
    overflow: hidden;
    transition: 0.5s;
-}
-button:hover{
-    color: #ffffff;
-}
-
-button:before{
-    content: '';
-    position: absolute;
-    background: #1f1f1f;
-    height: 150px;
-    width: 300px;
-    border-radius: 50%;
-    z-index: -1;
-    top: 100%;
-    left: 100%;
-    transition: 0.7s;
+   cursor: pointer;
+   width: 50%;
+   height: 20%;
 }
 
-button:hover:before{
-    top: -30px;
-    left: -30px;
-}
+
+
 
 button:active::before{
     background: #3a0ca3;
-    transition: 0s;
+  
 }
 
 .description{
-    color: #ffffff;
+    color: black;
 }
 
 .title{
-    color: #ffffff;
+    color: black;
    
 }
 @media screen and (max-width:900px) {
